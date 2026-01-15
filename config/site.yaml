@@ -317,7 +317,7 @@ navigation:
   - name: Semanal
     path: /weekly
     icon: ri:newspaper-line
-  - name: 文章 # 有子菜单时，path 可省略
+  - name: Blog # 有子菜单时，path 可省略
     icon: ri:quill-pen-ai-fill
     children: # 子菜单列表
       - name: Categorías

@@ -28,22 +28,22 @@ const startYear = siteConfig?.startYear ?? currentYear;
       <button class="flex items-center gap-2 opacity-75 transition-opacity duration-300 hover:opacity-100" title="站点总字数">
         <Icon name="ri:file-text-line" class="h-4 w-4" />
         <span class="font-medium">{stats.formattedWords}</span>
-        <span class="text-xs">字</span>
+        <span class="text-xs">Palabras</span>
       </button>
 
       <div class="bg-muted-foreground/30 h-4 w-px"></div>
 
-      <button class="flex items-center gap-2 opacity-75 transition-opacity duration-300 hover:opacity-100" title="站点阅读时长">
+      <button class="flex items-center gap-2 opacity-75 transition-opacity duration-300 hover:opacity-100" title="Tiempo de lectura del sitio">
         <Icon name="ri:time-line" class="h-4 w-4" />
         <span class="font-medium">{stats.formattedTime}</span>
       </button>
 
       <div class="bg-muted-foreground/30 h-4 w-px"></div>
 
-      <button class="flex items-center gap-2 opacity-75 transition-opacity duration-300 hover:opacity-100" title="文章总数">
+      <button class="flex items-center gap-2 opacity-75 transition-opacity duration-300 hover:opacity-100" title="Artículos publicados">
         <Icon name="ri:article-line" class="h-4 w-4" />
         <span class="font-medium">{stats.postCount}</span>
-        <span class="text-xs">篇</span>
+        <span class="text-xs">Artículos</span>
       </button>
     </div>
 
@@ -64,7 +64,6 @@ const startYear = siteConfig?.startYear ?? currentYear;
       <SakuraSVG className="mx-1 size-5 animate-spin text-[#FFC0CB] duration-10000" />
       <span class="author font-medium opacity-75" itemprop="copyrightHolder">
         {siteConfig.name}
-        {siteConfig?.alternate ? `@${siteConfig.alternate}` : ''}
       </span>
     </div>
 
