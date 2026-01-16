@@ -321,7 +321,7 @@ navigation:
     children: # 子菜单列表
       - name: Publicaciones
         path: /posts
-        icon: ri:post-fill
+        icon: ri:file-text-fill
       - name: Categorías
         path: /categories
         icon: ri:grid-fill
