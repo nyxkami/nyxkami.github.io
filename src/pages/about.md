@@ -35,3 +35,9 @@ https://book.cosine.ren/
 [![GitHub State](https://git-stats.cosine.ren/api?username=nyxkami&theme=dark&show_icons=true&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [![GitHub Streak](https://github-readme-streak-stats-rust-tau.vercel.app?user=nyxkami&theme=dark&date_format=%5BY%20%5DM%20&hide_border=true)](https://git.io/streak-stats)
+
+### Sobre mi web
+
+En esta web comparto experiencias y conocimientos, lo uso también como cuaderno de viaje, presentación e información sobre mis proyectos...
+
+La web está creada bajo Astro y Tailwind CSS, partiendo de la plantilla [astro-koharu](https://github.com/cosZone/astro-koharu) creada por [cos @cosine](https://blog.cosine.ren/)
