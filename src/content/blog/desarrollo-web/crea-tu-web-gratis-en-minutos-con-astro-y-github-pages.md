@@ -19,6 +19,10 @@ No vamos a partir desde cero, si no que vamos a elegir una plantilla base y come
 
 Para ello, navegamos hasta [la web de plantillas de Astro](https://astro.build/themes/1/?search=&price%5B%5D=free) y en los filtros seleccionamos las características que buscamos para nuestro sitio.
 
+En mi caso, elegí astro-koharu, ya que ofrecía lo que buscaba, portfolio y blog, además de ser visualmente muy buena.
+
+https://github.com/cosZone/astro-koharu
+
 Una vez encontrada nuestra plantilla ideal, navegamos hasta su repositorio git y hacemos click en el botón "Usar esta plantilla", si no lo tiene, simplemente hacemos un fork.
 
 En nombre de nuestro repositorio debe ser [nombre de usuario en github].github.io, esto nos ahorrará muchos pasos para poner en marcha nuestro sitio.
