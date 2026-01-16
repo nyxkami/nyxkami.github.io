@@ -7,7 +7,7 @@ tags:
   - Astro
   - Github
 categories:
-  - 随笔
+  - Desarrollo web
 ---
 
 Hoy en día es necesario tener una página web para exponer y mostrar tus ideas al mundo, no obstante, puede que no puedas costearte los gastos que estas generan o directamente no tengas mucho tiempo para desarrollarla o mantenerla.
