@@ -103,13 +103,13 @@ const lqipProps = getLqipProps(finalCover);
           date ? (
             <p class="flex-center gap-1">
               <Icon name="fa6-solid:calendar-days" />
-              {formatInTimeZone(date, 'UTC', 'yyyy-MM-dd')}
+              {formatInTimeZone(date, 'UTC', 'dd/MM/yyyy')}
             </p>
           ) : null
         }
         <p class="flex-center gap-1">
           <Icon name="fa6-solid:pen-nib" />
-          {readState?.words} 字
+          {readState?.words} palabras
         </p>
         <button
           class="flex-center gap-1 md:hidden"
@@ -132,7 +132,7 @@ const lqipProps = getLqipProps(finalCover);
           isDraft && (
             <Badge className="bg-yellow-700 border border-yellow-600/20 gap-1 text-white shrink-0 hover:bg-yellow-500 whitespace-nowrap transition-colors duration-300 ">
               <Icon name="fa6-solid:file-pen" class="h-3 w-3" />
-              草稿
+              Borrador
             </Badge>
           )
         }
@@ -177,7 +177,7 @@ const lqipProps = getLqipProps(finalCover);
     }
     <a
       href={href}
-      aria-label="more info"
+      aria-label="Más información"
       class={cn('absolute -bottom-1', hideCover ? '-right-1' : leftClip ? '-right-1' : '-left-1', 'md:left-auto md:-right-1')}
     >
       <Button
@@ -191,7 +191,7 @@ const lqipProps = getLqipProps(finalCover);
           'md:rounded-ss-2xl md:rounded-se-none md:rounded-ee-2xl md:rounded-es-none md:hover:translate-x-1',
         )}
       >
-        more...
+        más...
       </Button>
     </a>
   </div>
