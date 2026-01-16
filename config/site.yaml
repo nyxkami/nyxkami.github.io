@@ -39,6 +39,7 @@ categoryMap:
   notas: note
   herramientas: tools
   semanal: weekly
+  Desarrollo web: desarrollo-web
   # Secondary categories (for nested paths)
   front-end: front-end
   # Add more as needed:
