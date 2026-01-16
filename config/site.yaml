@@ -41,6 +41,7 @@ categoryMap:
   semanal: weekly
   Desarrollo web: desarrollo-web
   Tecnología: tecnologia
+  Inteligencia Artificial: ia
   # Secondary categories (for nested paths)
   front-end: front-end
   # Add more as needed:
