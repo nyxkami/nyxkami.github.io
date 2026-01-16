@@ -35,15 +35,11 @@ site:
 # =============================================================================
 categoryMap:
   # Primary categories
-  vida: life
-  notas: note
-  herramientas: tools
-  semanal: weekly
   Desarrollo web: desarrollo-web
   Tecnología: tecnologia
   Inteligencia Artificial: ia
   # Secondary categories (for nested paths)
-  front-end: front-end
+  # front-end: front-end
   # Add more as needed:
   # 后端: back-end
   # 算法: algorithm
@@ -60,12 +56,12 @@ categoryMap:
 #   description: 分类描述文字，显示在卡片上
 # -----------------------------------------------------------------------------
 featuredCategories:
-  - link: life # 对应 categoryMap 中 随笔: life
-    label: Vida
+  - link: desarrollo-web # 对应 categoryMap 中 随笔: life
+    label: Desarrollo web
     image: /img/cover/2.webp
     description: 生活记录、随想随笔
-  - link: note # 对应 categoryMap 中 笔记: note
-    label: Notas
+  - link: ia # 对应 categoryMap 中 笔记: note
+    label: Inteligencia Artificial
     image: /img/cover/4.webp
     description: 技术笔记、学习笔记
   - link: note/front-end # 嵌套分类：笔记/前端
