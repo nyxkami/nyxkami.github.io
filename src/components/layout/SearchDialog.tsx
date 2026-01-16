@@ -242,7 +242,7 @@ export default function SearchDialog() {
                       <div className="relative mb-4 flex items-center justify-between">
                         <h2 className="flex items-center gap-2 font-semibold text-lg md:text-base">
                           <SearchIcon className="size-5 md:size-4" />
-                          Buscar artículos
+                          Buscar en el sitio
                         </h2>
                         <button
                           type="button"
