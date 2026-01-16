@@ -367,7 +367,7 @@ navigation:
 # -----------------------------------------------------------------------------
 comment:
   remark42:
-    enabled: true
+    enabled: false
     host: https://comment.example.com/
     siteId: your-site-id
 
@@ -380,7 +380,7 @@ comment:
 # -----------------------------------------------------------------------------
 analytics:
   umami:
-    enabled: true
+    enabled: false
     id: your-umami-id
     endpoint: https://stats.example.com
 
