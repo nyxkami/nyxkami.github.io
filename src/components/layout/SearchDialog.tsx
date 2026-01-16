@@ -242,13 +242,13 @@ export default function SearchDialog() {
                       <div className="relative mb-4 flex items-center justify-between">
                         <h2 className="flex items-center gap-2 font-semibold text-lg md:text-base">
                           <SearchIcon className="size-5 md:size-4" />
-                          搜索文章
+                          Buscar artículos
                         </h2>
                         <button
                           type="button"
                           onClick={handleClose}
                           className="flex size-8 items-center justify-center rounded-full bg-black/5 transition-colors duration-300 hover:bg-black/10 md:size-7 dark:bg-white/10 dark:hover:bg-white/20"
-                          aria-label="关闭搜索"
+                          aria-label="Cerrar búsqueda"
                         >
                           <CloseIcon className="size-5 md:size-4" />
                         </button>
@@ -259,9 +259,9 @@ export default function SearchDialog() {
                         id="search-empty-hint"
                         className="search-empty-hint absolute inset-x-0 top-32 text-center text-sm opacity-60 md:top-28"
                       >
-                        <p>输入关键词搜索博客文章</p>
+                        <p>Introduzca palabras clave para buscar publicaciones del blog</p>
                         <p className="mt-1 text-xs">
-                          按 <kbd className="rounded bg-black/10 px-1.5 py-0.5 font-mono dark:bg-white/10">ESC</kbd> 关闭
+                          Presiona <kbd className="rounded bg-black/10 px-1.5 py-0.5 font-mono dark:bg-white/10">ESC</kbd> para cerrar
                         </p>
                       </div>
 
@@ -274,13 +274,13 @@ export default function SearchDialog() {
                     {/* Keyboard hints */}
                     <div className="absolute inset-x-0 bottom-0 z-10 flex items-center justify-center gap-4 bg-gradient-start px-4 pt-1 pb-4 text-black/50 text-xs dark:border-white/10 dark:text-white/50">
                       <span>
-                        <kbd className="kbd">↑↓</kbd> 选择
+                        <kbd className="kbd">↑↓</kbd> Seleccionar
                       </span>
                       <span>
-                        <kbd className="kbd">Enter</kbd> 打开
+                        <kbd className="kbd">Enter</kbd> Abrir
                       </span>
                       <span>
-                        <kbd className="kbd">ESC</kbd> 关闭
+                        <kbd className="kbd">ESC</kbd> Cerrar
                       </span>
                     </div>
                   </div>
@@ -318,7 +318,7 @@ export function SearchTrigger({ className }: { className?: string }) {
       type="button"
       onClick={handleClick}
       className={cn('cursor-pointer transition duration-300 hover:scale-125', className)}
-      aria-label="搜索"
+      aria-label="Buscar"
       title={title}
     >
       <SearchIcon className="size-8" />
