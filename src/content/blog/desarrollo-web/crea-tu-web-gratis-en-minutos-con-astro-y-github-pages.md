@@ -3,6 +3,7 @@ title: Tu web gratis en minutos con Astro y Github
 link: tu-web-gratis-en-minutos-con-astro-y-github
 catalog: true
 date: 2026-01-16 07:00:00
+description: Guía paso a paso para crear tu sitio web con Astro y Github pages gratis y en unos solos minutos
 tags:
   - Astro
   - Github
