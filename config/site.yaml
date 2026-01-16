@@ -40,6 +40,7 @@ categoryMap:
   herramientas: tools
   semanal: weekly
   Desarrollo web: desarrollo-web
+  Tecnología: tecnologia
   # Secondary categories (for nested paths)
   front-end: front-end
   # Add more as needed:
