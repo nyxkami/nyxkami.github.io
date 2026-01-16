@@ -15,7 +15,7 @@ site:
   alternate: Nyxkami # 网站英文名称 用于页脚、Logo、@ handle 等
   subtitle: Tecnología, desarrollo e Inteligencia artificial # 网站副标题
   name: Nyxkami # 作者名称 - 请修改为你的名字
-  description: 一个基于 Astro 的现代化博客主题 # 网站描述
+  description: Desarrollador, diseñador, entusiasta de la IA # 网站描述
   avatar: /img/avatar.webp # 网站头像
   showLogo: true # 是否显示 Logo
   author: Nyxkami # 作者名称 - 请修改为你的名字
