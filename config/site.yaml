@@ -319,6 +319,9 @@ navigation:
   - name: Blog # 有子菜单时，path 可省略
     icon: ri:quill-pen-ai-fill
     children: # 子菜单列表
+      - name: Publicaciones
+        path: /posts
+        icon: ri:post-fill
       - name: Categorías
         path: /categories
         icon: ri:grid-fill
