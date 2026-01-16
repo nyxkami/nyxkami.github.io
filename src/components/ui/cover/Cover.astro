@@ -57,16 +57,16 @@ const bannerLqipStyle = getLqipStyle('/img/site_header_1920.webp');
             <p class="mt-3 flex flex-wrap items-center justify-center gap-4 md:text-xs">
               <span class="flex items-center gap-1">
                 <Icon name="fa6-solid:calendar-days" />
-                发表于 {date && formatInTimeZone(date, 'UTC', 'yyyy-MM-dd HH:mm')}
+                Publicada el {date && formatInTimeZone(date, 'UTC', 'yyyy-MM-dd HH:mm')}
               </span>
               {updated && (
                 <span class="flex items-center gap-1">
                   <Icon name="fa6-solid:calendar-days" />
-                  更新于 {formatInTimeZone(updated, 'UTC', 'yyyy-MM-dd HH:mm')}
+                  Actualizada el {formatInTimeZone(updated, 'UTC', 'yyyy-MM-dd HH:mm')}
                 </span>
               )}
               <span class="flex items-center gap-1">
-                <Icon name="fa6-solid:pen-nib" /> {readState?.words} 字
+                <Icon name="fa6-solid:pen-nib" /> {readState?.words} palabras
               </span>
               <span class="flex items-center gap-1">
                 <Icon name="fa6-solid:clock" />
