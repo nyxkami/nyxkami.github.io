@@ -9,13 +9,13 @@ import Layout from '@layouts/Layout.astro';
 import TwoColumnLayout from '@layouts/TwoColumnLayout.astro';
 import Remark from '@/components/common/Remark.astro';
 
-const title = `友情链接 | ${siteConfig.title}`;
+const title = `Amigos | ${siteConfig.title}`;
 const description = '我的小伙伴们，欢迎加友链～';
 ---
 
 <Layout title={title} description={description}>
   <TwoColumnLayout>
-    <Cover slot="cover" title="友情链接" />
+    <Cover slot="cover" title="Amigos" />
     <HomeSider slot="sider" />
     <div
       class={`bg-gradient-start shadow-box tablet:shadow-none flex flex-col gap-10 overflow-hidden ${CONTENT_PADDING.standard}`}

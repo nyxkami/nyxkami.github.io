@@ -38,7 +38,7 @@ export default function PostFooterLists({ allPosts, relatedPosts, leftCount, rig
     <>
       {/* Left side: Random posts */}
       <div className="flex flex-col gap-4">
-        <h2 className="font-semibold text-2xl text-foreground/80">随机文章</h2>
+        <h2 className="font-semibold text-2xl text-foreground/80">Artículos aleatorios</h2>
         <div className="flex flex-col gap-2">
           {leftPosts.map((post, index) => (
             <a
